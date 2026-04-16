@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Betania+Patmos&display=swap");
+:root{
+    --priazul-color: blue ;
+    --priazullight-color: rgb(94, 208, 239) ;
+    --prinaranja-color: orange ;
+    --priwhite-color: white ;
+    --prigreen-color: rgb(22, 172, 22) ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Betania Patmos', cursive;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras - Mi Tienda Online</title>
+    <link rel="stylesheet" href="../css/Style-carro-compra.css">
+</head>
+<body>
+    <header>
+        <h1>Carrito de Compras</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../index.html#productos">Productos</a></li>
+                <li><a href="#">Carrito</a></li>
+                <li><a href="../index.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cart-items">
+            <h2>Productos en tu Carrito</h2>
+            <!-- Aquí se mostrarán los productos añadidos al carrito -->
+            <div class="cart-item">
+                <img src="producto1.jpg" alt="Producto 1">
+                <div class="item-details">
+                    <h3>Producto 1</h3>
+                    <p>Cantidad: 2</p>
+                    <span class="price">$39.98</span>
+                    <button>Eliminar</button>
+                </div>
+            </div>
+            <!-- Más productos aquí -->
+        </section>
+
+        <section class="cart-summary">
+            <h2>Resumen del Carrito</h2>
+            <p>Total: $39.98</p>
+            <button>Proceder al Pago</button>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 Mi Tienda Online. Todos los derechos reservados.
+    </footer>
+    <script src="../js/scripts-carro-compra.js"></script>
+</body>
+</html>
