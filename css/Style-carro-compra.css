@@ -13,3 +13,29 @@
     box-sizing: border-box;
     font-family: 'Betania Patmos', cursive;
 }
+
+.cart-items{
+    padding: 10px;
+    margin: 5px;
+}
+
+.producto-carro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid var(--priazullight-color);
+    background-color: var(--prinaranja-color);
+}
+.img-carro{
+    max-width: 100px;
+    max-height: 100px;
+}
+.producto-carro-info{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 1rem;
+}

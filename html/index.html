@@ -49,9 +49,9 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                         <p class="precio">precio:$<span class="precio" id="precio">39.990</span></p>
                         <div class="contenedor-cantidas-agregar">
-                            <button onclick="disminuir_cantidad()">-</button>
-                            <input class="inpt-numero" type="text" id="cantidad" value="1" readonly>
-                            <button onclick="aumentar_cantidad()">+</button>
+                            <button onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">-</button>
+                            <input class="inpt-numero" type="text" value="1" readonly>
+                        <button onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>
                         </div>
                         <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
@@ -63,9 +63,9 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                         <p class="precio">precio:$<span class="precio" id="precio">39.990</span></p>
                         <div class="contenedor-cantidas-agregar">
-                            <button onclick="disminuir_cantidad2()">-</button>
-                            <input class="inpt-numero" type="text" id="cantidad2" value="1" readonly>
-                            <button onclick="aumentar_cantidad2()">+</button>
+                            <button onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">-</button>
+                            <input class="inpt-numero" type="text" value="1" readonly>
+                            <button onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>
                         </div>
                         <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
@@ -77,9 +77,9 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                         <p class="precio">precio:$<span class="precio" id="precio">39.990</span></p>
                         <div class="contenedor-cantidas-agregar">
-                            <button onclick="disminuir_cantidad3()">-</button>
-                            <input class="inpt-numero" type="text" id="cantidad3" value="1" readonly>
-                            <button onclick="aumentar_cantidad3()">+</button>
+                            <button onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">-</button>
+                            <input class="inpt-numero" type="text" value="1" readonly>
+                            <button onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>                          
                         </div>
                         <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
@@ -91,9 +91,9 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                         <p class="precio">precio: $<span class="precio" id="precio">29.990</span></p>
                         <div class="contenedor-cantidas-agregar">
-                            <button onclick="disminuir_cantidad4()">-</button>
-                            <input class="inpt-numero" type="text" id="cantidad4" value="1" readonly>
-                            <button onclick="aumentar_cantidad4()">+</button>
+                            <button onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">-</button>
+                            <input class="inpt-numero" type="text" value="1" readonly>
+                            <button onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>                        
                         </div>
                         <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
@@ -105,9 +105,9 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                         <p class="precio">precio: $<span class="precio" id="precio">19.990</span></p>
                         <div class="contenedor-cantidas-agregar">
-                            <button onclick="disminuir_cantidad5()">-</button>
-                            <input class="inpt-numero" type="text" id="cantidad5" value="1" readonly>
-                            <button onclick="aumentar_cantidad5()">+</button>
+                            <button onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">-</button>
+                            <input class="inpt-numero" type="text" value="1" readonly>
+                            <button onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>
                         </div>
                         <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
@@ -119,9 +119,9 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                         <p class="precio">precio: $<span class="precio" id="precio">29.990</span></p>
                         <div class="contenedor-cantidas-agregar">
-                            <button onclick="disminuir_cantidad6()">-</button>
-                            <input class="inpt-numero" type="text" id="cantidad6" value="1" readonly>
-                            <button onclick="aumentar_cantidad6()">+</button>
+                            <button onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">-</button>
+                            <input class="inpt-numero" type="text" value="1" readonly>
+                            <button onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>
                         </div>
                         <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
@@ -133,13 +133,12 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                         <p class="precio">precio: $<span class="precio" id="precio">19.990</span></p>
                         <div class="contenedor-cantidas-agregar">
-                            <button onclick="disminuir_cantidad7()">-</button>
-                            <input class="inpt-numero" type="text" id="cantidad7" value="1" readonly>
-                            <button onclick="aumentar_cantidad7()">+</button>
+                            <button onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">-</button>
+                            <input class="inpt-numero" type="text" value="1" readonly>
+                            <button onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>
                         </div>
                         <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
-                </div>
                 </div>
                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/perfume 8.png" alt="Producto 8">
@@ -148,13 +147,12 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                         <p class="precio">precio: $<span class="precio" id="precio">19.990</span></p>
                         <div class="contenedor-cantidas-agregar">
-                            <button onclick="disminuir_cantidad7()">-</button>
-                            <input class="inpt-numero" type="text" id="cantidad7" value="1" readonly>
-                            <button onclick="aumentar_cantidad7()">+</button>
+                            <button onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">-</button>
+                            <input class="inpt-numero" type="text" value="1" readonly>
+                            <button onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>
                         </div>
                         <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
-                </div>
                 </div>
                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/perfume 9.png" alt="Producto 9">
@@ -163,9 +161,9 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                         <p class="precio">precio: $<span class="precio" id="precio">19.990</span></p>
                         <div class="contenedor-cantidas-agregar">
-                            <button onclick="disminuir_cantidad9()">-</button>
-                            <input class="inpt-numero" type="text" id="cantidad9" value="1" readonly>
-                            <button onclick="aumentar_cantidad9()">+</button>
+                            <button onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">-</button>
+                            <input class="inpt-numero" type="text" value="1" readonly>
+                            <button onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>
                         </div>
                         <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
@@ -177,9 +175,9 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                         <p class="precio">precio: $<span class="precio" id="precio">29.990</span></p>
                         <div class="contenedor-cantidas-agregar">
-                            <button onclick="disminuir_cantidad10()">-</button>
-                            <input class="inpt-numero" type="text" id="cantidad10" value="1" readonly>
-                            <button onclick="aumentar_cantidad10()">+</button>
+                            <button onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">-</button>
+                            <input class="inpt-numero" type="text" value="1" readonly>
+                            <button onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>
                         </div>
                         <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
@@ -191,13 +189,13 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                         <p class="precio">precio: $<span class="precio" id="precio">19.990</span></p>
                         <div class="contenedor-cantidas-agregar">
-                            <button onclick="disminuir_cantidad11()">-</button>
-                            <input class="inpt-numero" type="text" id="cantidad11" value="1" readonly>
-                            <button onclick="aumentar_cantidad11()">+</button>
+                            <button onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">-</button>
+                            <input class="inpt-numero" type="text" value="1" readonly>
+                            <button onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>
                         </div>
                         <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
-                    </div>
+                </div>
                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/base2.png" alt="Producto 12">
                     <div class="informacion-item">
@@ -205,9 +203,9 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                         <p class="precio">precio: $<span class="precio" id="precio">29.990</span></p>
                         <div class="contenedor-cantidas-agregar">
-                            <button onclick="disminuir_cantidad12()">-</button>
-                            <input class="inpt-numero" type="text" id="cantidad12" value="1" readonly>
-                            <button onclick="aumentar_cantidad12()">+</button>
+                            <button onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">-</button>
+                            <input class="inpt-numero" type="text" value="1" readonly>
+                            <button onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>
                         </div>
                         <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
@@ -219,9 +217,9 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                         <p class="precio">precio: $<span class="precio" id="precio">19.990</span></p>
                         <div class="contenedor-cantidas-agregar">
-                            <button onclick="disminuir_cantidad13()">-</button>
-                            <input class="inpt-numero" type="text" id="cantidad13" value="1" readonly>
-                            <button onclick="aumentar_cantidad13()">+</button>
+                            <button onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">-</button>
+                            <input class="inpt-numero" type="text" value="1" readonly>
+                            <button onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>
                         </div>
                         <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
@@ -233,9 +231,9 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                         <p class="precio">precio: $<span class="precio" id="precio">29.990</span></p>
                         <div class="contenedor-cantidas-agregar">
-                            <button onclick="disminuir_cantidad14()">-</button>
-                            <input class="inpt-numero" type="text" id="cantidad14" value="1" readonly>
-                            <button onclick="aumentar_cantidad14()">+</button>
+                            <button onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">-</button>
+                            <input class="inpt-numero" type="text" value="1" readonly>
+                            <button onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>
                         </div>
                         <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
@@ -247,9 +245,9 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                         <p class="precio">precio: $<span class="precio" id="precio">19.990</span></p>
                         <div class="contenedor-cantidas-agregar">
-                            <button onclick="disminuir_cantidad15()">-</button>
-                            <input class="inpt-numero" type="text" id="cantidad15" value="1" readonly>
-                            <button onclick="aumentar_cantidad15()">+</button>
+                            <button onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">-</button>
+                            <input class="inpt-numero" type="text" value="1" readonly>
+                            <button onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>
                         </div>
                         <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
@@ -261,9 +259,9 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                         <p class="precio">precio: $<span class="precio" id="precio">29.990</span></p>
                         <div class="contenedor-cantidas-agregar">
-                            <button onclick="disminuir_cantidad16()">-</button>
-                            <input class="inpt-numero" type="text" id="cantidad16" value="1" readonly>
-                            <button onclick="aumentar_cantidad16()">+</button>
+                            <button onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">-</button>
+                            <input class="inpt-numero" type="text" value="1" readonly>
+                            <button onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>
                         </div>
                         <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
@@ -275,23 +273,23 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                         <p class="precio">precio: $<span class="precio" id="precio">19.990</span></p>
                         <div class="contenedor-cantidas-agregar">
-                            <button onclick="disminuir_cantidad17()">-</button>
-                            <input class="inpt-numero" type="text" id="cantidad17" value="1" readonly>
-                            <button onclick="aumentar_cantidad17()">+</button>
+                            <button onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">-</button>
+                            <input class="inpt-numero" type="text" value="1" readonly>
+                            <button onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>
                         </div>
                         <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
                 </div>
-                       <div class="producto-item">
+                <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/sombra2.png" alt="Producto 18">
                     <div class="informacion-item">
                         <h3 class="nombre-producto">Producto 18</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                         <p class="precio">precio: $<span class="precio" id="precio">29.990</span></p>
                         <div class="contenedor-cantidas-agregar">
-                            <button onclick="disminuir_cantidad18()">-</button>
-                            <input class="inpt-numero" type="text" id="cantidad18" value="1" readonly>
-                            <button onclick="aumentar_cantidad18()">+</button>
+                            <button onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">-</button>
+                            <input class="inpt-numero" type="text" value="1" readonly>
+                            <button onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>
                         </div>
                         <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
@@ -303,9 +301,9 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                         <p class="precio">precio: $<span class="precio" id="precio">19.990</span></p>
                         <div class="contenedor-cantidas-agregar">
-                            <button onclick="disminuir_cantidad19()">-</button>
-                            <input class="inpt-numero" type="text" id="cantidad19" value="1" readonly>
-                            <button onclick="aumentar_cantidad19()">+</button>
+                            <button onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">-</button>
+                            <input class="inpt-numero" type="text" value="1" readonly>
+                            <button onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>
                         </div>
                         <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
@@ -317,9 +315,9 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
                         <p class="precio">precio: $<span class="precio" id="precio">29.990</span></p>
                         <div class="contenedor-cantidas-agregar">
-                            <button onclick="disminuir_cantidad20()">-</button>
-                            <input class="inpt-numero" type="text" id="cantidad20" value="1" readonly>
-                            <button onclick="aumentar_cantidad20()">+</button>
+                            <button onclick="this.nextElementSibling.value = Math.max(1, parseInt(this.nextElementSibling.value) - 1)">-</button>
+                            <input class="inpt-numero" type="text" value="1" readonly>
+                            <button onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1">+</button>
                         </div>
                         <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
