@@ -90,3 +90,6 @@ ul{
     border: 2px solid var(--priwhite-color);
     position: relative;
 }
+.inpt-numero{
+    width: 20px;
+}

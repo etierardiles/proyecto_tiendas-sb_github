@@ -45,184 +45,285 @@
                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/perfume 1.png" alt="Producto 1">
                     <div class="informacion-item">
-                        <h3>Producto 1</h3>
+                        <h3 class="nombre-producto">Producto 1</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <p class="precio">precio: $19.990</p>
-                        <button>Añadir al Carrito</button>
+                        <p class="precio">precio:$<span class="precio" id="precio">39.990</span></p>
+                        <div class="contenedor-cantidas-agregar">
+                            <button onclick="disminuir_cantidad()">-</button>
+                            <input class="inpt-numero" type="text" id="cantidad" value="1" readonly>
+                            <button onclick="aumentar_cantidad()">+</button>
+                        </div>
+                        <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
                 </div>
                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/perfume 2.png" alt="Producto 2">
                     <div class="informacion-item">
-                        <h3>Producto 2</h3>
+                        <h3 class="nombre-producto">Producto 2</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <p class="precio">precio: $29.990</p>
-                        <button>Añadir al Carrito</button>
+                        <p class="precio">precio:$<span class="precio" id="precio">39.990</span></p>
+                        <div class="contenedor-cantidas-agregar">
+                            <button onclick="disminuir_cantidad2()">-</button>
+                            <input class="inpt-numero" type="text" id="cantidad2" value="1" readonly>
+                            <button onclick="aumentar_cantidad2()">+</button>
+                        </div>
+                        <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
                 </div>
                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/perfume 3.png" alt="Producto 3">
                     <div class="informacion-item">
-                        <h3>Producto 3</h3>
+                        <h3 class="nombre-producto">Producto 3</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <p class="precio">precio: $19.990</p>
-                        <button>Añadir al Carrito</button>
+                        <p class="precio">precio:$<span class="precio" id="precio">39.990</span></p>
+                        <div class="contenedor-cantidas-agregar">
+                            <button onclick="disminuir_cantidad3()">-</button>
+                            <input class="inpt-numero" type="text" id="cantidad3" value="1" readonly>
+                            <button onclick="aumentar_cantidad3()">+</button>
+                        </div>
+                        <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
                 </div>
-                <div class="producto-item">
+                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/perfume 4.png" alt="Producto 4">
                     <div class="informacion-item">
-                        <h3>Producto 4</h3>
+                        <h3 class="nombre-producto">Producto 4</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <p class="precio">precio: $29.990</p>
-                        <button>Añadir al Carrito</button>
+                        <p class="precio">precio: $<span class="precio" id="precio">29.990</span></p>
+                        <div class="contenedor-cantidas-agregar">
+                            <button onclick="disminuir_cantidad4()">-</button>
+                            <input class="inpt-numero" type="text" id="cantidad4" value="1" readonly>
+                            <button onclick="aumentar_cantidad4()">+</button>
+                        </div>
+                        <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
                 </div>
                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/perfume 5.png" alt="Producto 5">
                     <div class="informacion-item">
-                        <h3>Producto 5</h3>
+                        <h3 class="nombre-producto">Producto 5</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <p class="precio">precio: $19.990</p>
-                        <button>Añadir al Carrito</button>
+                        <p class="precio">precio: $<span class="precio" id="precio">19.990</span></p>
+                        <div class="contenedor-cantidas-agregar">
+                            <button onclick="disminuir_cantidad5()">-</button>
+                            <input class="inpt-numero" type="text" id="cantidad5" value="1" readonly>
+                            <button onclick="aumentar_cantidad5()">+</button>
+                        </div>
+                        <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
                 </div>
                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/perfume 6.png" alt="Producto 6">
                     <div class="informacion-item">
-                        <h3>Producto 6</h3>
+                        <h3 class="nombre-producto">Producto 6</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <p class="precio">precio: $29.990</p>
-                        <button>Añadir al Carrito</button>
+                        <p class="precio">precio: $<span class="precio" id="precio">29.990</span></p>
+                        <div class="contenedor-cantidas-agregar">
+                            <button onclick="disminuir_cantidad6()">-</button>
+                            <input class="inpt-numero" type="text" id="cantidad6" value="1" readonly>
+                            <button onclick="aumentar_cantidad6()">+</button>
+                        </div>
+                        <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
                 </div>
                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/perfume 7.png" alt="Producto 7">
                     <div class="informacion-item">
-                        <h3>Producto 7</h3>
+                        <h3 class="nombre-producto">Producto 7</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <p class="precio">precio: $19.990</p>
-                        <button>Añadir al Carrito</button>
+                        <p class="precio">precio: $<span class="precio" id="precio">19.990</span></p>
+                        <div class="contenedor-cantidas-agregar">
+                            <button onclick="disminuir_cantidad7()">-</button>
+                            <input class="inpt-numero" type="text" id="cantidad7" value="1" readonly>
+                            <button onclick="aumentar_cantidad7()">+</button>
+                        </div>
+                        <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
+                </div>
                 </div>
                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/perfume 8.png" alt="Producto 8">
                     <div class="informacion-item">
-                        <h3>Producto 8</h3>
+                        <h3 class="nombre-producto">Producto 8</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <p class="precio">precio: $29.990</p>
-                        <button>Añadir al Carrito</button>
+                        <p class="precio">precio: $<span class="precio" id="precio">19.990</span></p>
+                        <div class="contenedor-cantidas-agregar">
+                            <button onclick="disminuir_cantidad7()">-</button>
+                            <input class="inpt-numero" type="text" id="cantidad7" value="1" readonly>
+                            <button onclick="aumentar_cantidad7()">+</button>
+                        </div>
+                        <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
+                </div>
                 </div>
                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/perfume 9.png" alt="Producto 9">
                     <div class="informacion-item">
-                        <h3>Producto 9</h3>
+                        <h3 class="nombre-producto">Producto 9</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <p class="precio">precio: $19.990</p>
-                        <button>Añadir al Carrito</button>
+                        <p class="precio">precio: $<span class="precio" id="precio">19.990</span></p>
+                        <div class="contenedor-cantidas-agregar">
+                            <button onclick="disminuir_cantidad9()">-</button>
+                            <input class="inpt-numero" type="text" id="cantidad9" value="1" readonly>
+                            <button onclick="aumentar_cantidad9()">+</button>
+                        </div>
+                        <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
                 </div>
                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/perfume 10.png" alt="Producto 10">
                     <div class="informacion-item">
-                        <h3>Producto 10</h3>
+                        <h3 class="nombre-producto">Producto 10</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <p class="precio">precio: $29.990</p>
-                        <button>Añadir al Carrito</button>
+                        <p class="precio">precio: $<span class="precio" id="precio">29.990</span></p>
+                        <div class="contenedor-cantidas-agregar">
+                            <button onclick="disminuir_cantidad10()">-</button>
+                            <input class="inpt-numero" type="text" id="cantidad10" value="1" readonly>
+                            <button onclick="aumentar_cantidad10()">+</button>
+                        </div>
+                        <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
                 </div>
                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/base1.png" alt="Producto 11">
                     <div class="informacion-item">
-                        <h3>Producto 11</h3>
+                        <h3 class="nombre-producto">Producto 11</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <p class="precio">precio: $19.990</p>
-                        <button>Añadir al Carrito</button>
+                        <p class="precio">precio: $<span class="precio" id="precio">19.990</span></p>
+                        <div class="contenedor-cantidas-agregar">
+                            <button onclick="disminuir_cantidad11()">-</button>
+                            <input class="inpt-numero" type="text" id="cantidad11" value="1" readonly>
+                            <button onclick="aumentar_cantidad11()">+</button>
+                        </div>
+                        <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
-                </div>
+                    </div>
                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/base2.png" alt="Producto 12">
                     <div class="informacion-item">
-                        <h3>Producto 12</h3>
+                        <h3 class="nombre-producto">Producto 12</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <p class="precio">precio: $29.990</p>
-                        <button>Añadir al Carrito</button>
+                        <p class="precio">precio: $<span class="precio" id="precio">29.990</span></p>
+                        <div class="contenedor-cantidas-agregar">
+                            <button onclick="disminuir_cantidad12()">-</button>
+                            <input class="inpt-numero" type="text" id="cantidad12" value="1" readonly>
+                            <button onclick="aumentar_cantidad12()">+</button>
+                        </div>
+                        <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
                 </div>
                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/base3.png" alt="Producto 13">
                     <div class="informacion-item">
-                        <h3>Producto 13</h3>
+                        <h3 class="nombre-producto">Producto 13</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <p class="precio">precio: $19.990</p>
-                        <button>Añadir al Carrito</button>
+                        <p class="precio">precio: $<span class="precio" id="precio">19.990</span></p>
+                        <div class="contenedor-cantidas-agregar">
+                            <button onclick="disminuir_cantidad13()">-</button>
+                            <input class="inpt-numero" type="text" id="cantidad13" value="1" readonly>
+                            <button onclick="aumentar_cantidad13()">+</button>
+                        </div>
+                        <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
                 </div>
                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/labial 1.png" alt="Producto 14">
                     <div class="informacion-item">
-                        <h3>Producto 14</h3>
+                        <h3 class="nombre-producto">Producto 14</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <p class="precio">precio: $29.990</p>
-                        <button>Añadir al Carrito</button>
+                        <p class="precio">precio: $<span class="precio" id="precio">29.990</span></p>
+                        <div class="contenedor-cantidas-agregar">
+                            <button onclick="disminuir_cantidad14()">-</button>
+                            <input class="inpt-numero" type="text" id="cantidad14" value="1" readonly>
+                            <button onclick="aumentar_cantidad14()">+</button>
+                        </div>
+                        <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
                 </div>
                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/labial 2.png" alt="Producto 15">
                     <div class="informacion-item">
-                        <h3>Producto 15</h3>
+                        <h3 class="nombre-producto">Producto 15</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <p class="precio">precio: $19.990</p>
-                        <button>Añadir al Carrito</button>
+                        <p class="precio">precio: $<span class="precio" id="precio">19.990</span></p>
+                        <div class="contenedor-cantidas-agregar">
+                            <button onclick="disminuir_cantidad15()">-</button>
+                            <input class="inpt-numero" type="text" id="cantidad15" value="1" readonly>
+                            <button onclick="aumentar_cantidad15()">+</button>
+                        </div>
+                        <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
                 </div>
                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/labial 3.png" alt="Producto 16">
                     <div class="informacion-item">
-                        <h3>Producto 16</h3>
+                        <h3 class="nombre-producto">Producto 16</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <p class="precio">precio: $29.990</p>
-                        <button>Añadir al Carrito</button>
+                        <p class="precio">precio: $<span class="precio" id="precio">29.990</span></p>
+                        <div class="contenedor-cantidas-agregar">
+                            <button onclick="disminuir_cantidad16()">-</button>
+                            <input class="inpt-numero" type="text" id="cantidad16" value="1" readonly>
+                            <button onclick="aumentar_cantidad16()">+</button>
+                        </div>
+                        <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
                 </div>
                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/sombra1.png" alt="Producto 17">
                     <div class="informacion-item">
-                        <h3>Producto 17</h3>
+                        <h3 class="nombre-producto">Producto 17</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <p class="precio">precio: $19.990</p>
-                        <button>Añadir al Carrito</button>
+                        <p class="precio">precio: $<span class="precio" id="precio">19.990</span></p>
+                        <div class="contenedor-cantidas-agregar">
+                            <button onclick="disminuir_cantidad17()">-</button>
+                            <input class="inpt-numero" type="text" id="cantidad17" value="1" readonly>
+                            <button onclick="aumentar_cantidad17()">+</button>
+                        </div>
+                        <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
                 </div>
-                <div class="producto-item">
+                       <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/sombra2.png" alt="Producto 18">
                     <div class="informacion-item">
-                        <h3>Producto 18</h3>
+                        <h3 class="nombre-producto">Producto 18</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <p class="precio">precio: $29.990</p>
-                        <button>Añadir al Carrito</button>
+                        <p class="precio">precio: $<span class="precio" id="precio">29.990</span></p>
+                        <div class="contenedor-cantidas-agregar">
+                            <button onclick="disminuir_cantidad18()">-</button>
+                            <input class="inpt-numero" type="text" id="cantidad18" value="1" readonly>
+                            <button onclick="aumentar_cantidad18()">+</button>
+                        </div>
+                        <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
                 </div>
                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/sombra3.png" alt="Producto 19">
                     <div class="informacion-item">
-                        <h3>Producto 19</h3>
+                        <h3 class="nombre-producto">Producto 19</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <p class="precio">precio: $19.990</p>
-                        <button>Añadir al Carrito</button>
+                        <p class="precio">precio: $<span class="precio" id="precio">19.990</span></p>
+                        <div class="contenedor-cantidas-agregar">
+                            <button onclick="disminuir_cantidad19()">-</button>
+                            <input class="inpt-numero" type="text" id="cantidad19" value="1" readonly>
+                            <button onclick="aumentar_cantidad19()">+</button>
+                        </div>
+                        <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
                 </div>
                 <div class="producto-item">
                     <img class="imagen-producto" src="../imagenes/sombra4.png" alt="Producto 20">
                     <div class="informacion-item">
-                        <h3>Producto 20</h3>
+                        <h3 class="nombre-producto">Producto 20</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                        <p class="precio">precio: $29.990</p>
-                        <button>Añadir al Carrito</button>
+                        <p class="precio">precio: $<span class="precio" id="precio">29.990</span></p>
+                        <div class="contenedor-cantidas-agregar">
+                            <button onclick="disminuir_cantidad20()">-</button>
+                            <input class="inpt-numero" type="text" id="cantidad20" value="1" readonly>
+                            <button onclick="aumentar_cantidad20()">+</button>
+                        </div>
+                        <button onclick="agregarCarrito(this)">Añadir al Carrito</button>
                     </div>
                 </div>
-                
                 <!-- Más productos aquí -->
             </section>
         </main>
@@ -234,6 +335,6 @@
             </p>
         </section>
     </div>
-    <script src="../js/scripts-index.js"></script>
+    <script src="../js/scripts-index-carro.js"></script>   
 </body>
 </html>
